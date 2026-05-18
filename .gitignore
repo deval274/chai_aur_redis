@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets (REDIS_URL, etc.)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Redis persistence (local dumps)
+dump.rdb
+appendonly.aof
+*.rdb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.idea/
+*.swp
+*.swo
+*~
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Optional local tooling
+.npm
